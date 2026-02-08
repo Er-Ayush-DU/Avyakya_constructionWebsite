@@ -3,7 +3,7 @@ import construction from "../src/assets/construction.svg";
 import design from "../src/assets/design.svg";
 import document from "../src/assets/document.svg";
 import paint from "../src/assets/paint.svg";
-import support from "../src/assets/support.svg";
+
 
 import { IoDocumentTextSharp } from "react-icons/io5";
 import { MdOutlineDesignServices } from "react-icons/md";
@@ -13,10 +13,8 @@ import { FaSitemap } from "react-icons/fa";
 import client1 from "../src/assets/client1.png";
 import client2 from "../src/assets/client2.png";
 import client3 from "../src/assets/client3.png";
-import coldStorage from "../src/assets/coldstorage.png";
-// import industrialBuilding from "../src/assets/industrialbuilding.png";
-// import commercialComplex from "../src/assets/commercialcomplex.png";
-// import institutionalProject from "../src/assets/institutionalproject.png";
+import coldStorage from "../src/assets/coldStorage.png";
+
 
 export const allservices = [
   {
