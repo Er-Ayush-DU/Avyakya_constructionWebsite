@@ -1,6 +1,6 @@
 import React from 'react';
-import heroimg from '../assets/heroimg.png'
-import backgroundImg from '../assets/homeimg.webp'
+import heroimg from '../assets/heroimage.avif'
+// import backgroundImg from '../assets/homeimg.webp'
 import { motion } from 'framer-motion'
 import { slideUpVariants, zoomInVariants } from './animation';
 import { Link } from 'react-scroll';
@@ -9,7 +9,7 @@ import { Link } from 'react-scroll';
 const Hero = () => {
     return (
         <div id='hero' className='bg-black w-full lg:h-[700px] h-fit m-auto pt-[60px] lg:pt-[0px] lg:px-[150px] px-[20px] flex justify-between items-center lg:flex-row flex-col lg:gap-5 gap-[50px] bg-cover bg-center'
-            style={{ backgroundImage: `url(${backgroundImg})` }}>
+            style={{ backgroundImage: `url(${heroimg})` }}>
             <motion.div
                 initial="hidden"
                 whileInView="visible"
