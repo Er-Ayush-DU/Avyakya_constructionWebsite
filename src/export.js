@@ -13,6 +13,10 @@ import { FaSitemap } from "react-icons/fa";
 import client1 from "../src/assets/client1.png";
 import client2 from "../src/assets/client2.png";
 import client3 from "../src/assets/client3.png";
+import coldStorage from "../src/assets/coldstorage.png";
+// import industrialBuilding from "../src/assets/industrialbuilding.png";
+// import commercialComplex from "../src/assets/commercialcomplex.png";
+// import institutionalProject from "../src/assets/institutionalproject.png";
 
 export const allservices = [
   {
@@ -46,10 +50,10 @@ export const allservices = [
       "Creative interior design services to craft comfortable and visually stunning spaces that reflect individual style.",
   },
   {
-    icon: support,
-    title: "Customer Support",
+    icon: coldStorage,
+    title: "Cold Storage Construction",
     about:
-      "Dedicated customer support to assist with inquiries, provide updates, and ensure a smooth project experience from start to finish.",
+      "Specialized cold storage construction with advanced insulation, temperature control, and energy-efficient systems for safe and reliable product preservation.",
   },
 ];
 

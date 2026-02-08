@@ -43,7 +43,7 @@ const Header = () => {
                     </li>
                 ))}
             </ul>
-            <button className='bg-yellow-500 hover:bg-black text-black hover:text-white px-10 py-3 rounded-full font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden'>REACH US</button>
+            <Link to="contact" className='bg-yellow-500 hover:bg-black text-black hover:text-white px-10 py-3 rounded-full font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden'>REACH US</Link>
 
             {/* Mobile Menu Toggle Icon */}
             <div className='flex justify-between items-center lg:hidden mt-3' onClick={toggleMenu}>
