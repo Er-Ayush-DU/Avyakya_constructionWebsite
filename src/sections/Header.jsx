@@ -17,6 +17,7 @@ const Header = () => {
         { link: 'Home', path: 'home' },
         { link: 'About', path: 'about' },
         { link: 'Services', path: 'services' },
+        { link: 'Testimonials', path: 'testimonials' },
         { link: 'Project', path: 'projects' },
         { link: 'Contact', path: 'contact' },
     ];
@@ -24,7 +25,7 @@ const Header = () => {
     return (
         <nav className='w-full flex bg-white justify-between items-center gap-1 lg:px-16 px-6 py-4 top-0 z-50'>
             <h1 className='text-black md:text-4xl text-3xl font-bold font-rubik'>
-                MS <span className='text-yellow-500 italic'>Structure</span>
+                Av<span className='text-yellow-500 italic'>yakta</span>
             </h1>
             {/* Desktop Menu */}
             <ul className='lg:flex justify-normal items-center gap-6 hidden'>
