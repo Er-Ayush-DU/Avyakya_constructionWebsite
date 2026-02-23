@@ -16,15 +16,9 @@ const OurTeams = () => {
           variants={slideUpVariants}
           className="text-yellow-300 text-2xl md:text-3xl uppercase tracking-wide"
         >
-          Our Teams
+          Our Team
         </motion.h3>
 
-        <motion.h2
-          variants={slideUpVariants}
-          className="text-white text-4xl md:text-5xl font-bold text-center uppercase"
-        >
-          WHAT THEY SAY ABOUT US
-        </motion.h2>
 
         <motion.div
           variants={zoomInVariants}
