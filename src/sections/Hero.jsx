@@ -1,6 +1,5 @@
 import React from 'react';
 import heroimg from '../assets/heroimages/heroimage2.webp'
-// import backgroundImg from '../assets/homeimg.webp'
 import { motion } from 'framer-motion'
 import { slideUpVariants, zoomInVariants } from './animation';
 import { Link } from 'react-scroll';

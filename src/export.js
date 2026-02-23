@@ -1,8 +1,8 @@
-import building from "../src/assets/building.svg";
-import construction from "../src/assets/construction.svg";
-import design from "../src/assets/design.svg";
-import document from "../src/assets/document.svg";
-import paint from "../src/assets/paint.svg";
+import building from "./assets/building.svg";
+import construction from "./assets/construction.svg";
+import design from "./assets/design.svg";
+import document from "./assets/document.svg";
+import paint from "./assets/paint.svg";
 
 
 import { IoDocumentTextSharp } from "react-icons/io5";
@@ -10,11 +10,11 @@ import { MdOutlineDesignServices } from "react-icons/md";
 import { FaRegBuilding } from "react-icons/fa";
 import { FaSitemap } from "react-icons/fa";
 
-import client1 from "../src/assets/testimonials/akash-mishra.jpeg";
-import client2 from "../src/assets/testimonials/shiva-singh.jpeg";
-import client3 from "../src/assets/testimonials/ramchandra-singh.jpeg";
-import client4 from "../src/assets/testimonials/soumya.jpeg";
-import coldStorage from "../src/assets/coldStorage.png";
+import client1 from "./assets/testimonials/akash-mishra.jpeg";
+import client2 from "./assets/testimonials/shiva-singh.jpeg";
+import client3 from "./assets/testimonials/ramchandra-singh.jpeg";
+import client4 from "./assets/testimonials/soumya.jpeg";
+import coldStorage from "./assets/coldStorage.png";
 
 
 export const allservices = [
