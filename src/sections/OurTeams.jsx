@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { slideUpVariants, zoomInVariants } from './animation';
 import { clients } from '../export';
 
-const Testimonials = () => {
+const OurTeams = () => {
   return (
-    <div id="testimonials" className="w-full bg-gray-900 py-16">
+    <div id="ourteams" className="w-full bg-gray-900 py-16">
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -16,7 +16,7 @@ const Testimonials = () => {
           variants={slideUpVariants}
           className="text-yellow-300 text-2xl md:text-3xl uppercase tracking-wide"
         >
-          Testimonials
+          Our Teams
         </motion.h3>
 
         <motion.h2
@@ -74,4 +74,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default OurTeams;

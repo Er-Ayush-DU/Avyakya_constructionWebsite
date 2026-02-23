@@ -7,7 +7,7 @@ import Portfolio from './sections/Portfolio';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import Working from './sections/Working';
-import Testimonials from './sections/Testimonials';
+import OurTeams from './sections/OurTeams';
 
 
 function App() {
@@ -15,16 +15,16 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <Hero/>
-      <About/>
-      <Services/>
-      <Portfolio/>
-      <Working/>
-      <Testimonials/>
-      <Contact/>
-      <Footer/>
-    
+      <Header />
+      <Hero />
+      <About />
+      <Services />
+      <Portfolio />
+      <Working />
+      <OurTeams />
+      <Contact />
+      <Footer />
+
     </>
   )
 }

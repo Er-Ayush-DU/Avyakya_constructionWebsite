@@ -10,10 +10,10 @@ import { MdOutlineDesignServices } from "react-icons/md";
 import { FaRegBuilding } from "react-icons/fa";
 import { FaSitemap } from "react-icons/fa";
 
-import client1 from "./assets/Testimonials/akash-mishra.jpeg";
-import client2 from "./assets/Testimonials/shiva-singh.jpeg";
-import client3 from "./assets/Testimonials/ramchandra-singh.jpeg";
-import client4 from "./assets/Testimonials/soumya.jpeg";
+import client3 from "./assets/Testimonials/akash-mishra.jpeg";
+import client4 from "./assets/Testimonials/shiva-singh.jpeg";
+import client1 from "./assets/Testimonials/ramchandra-singh.jpeg";
+import client2 from "./assets/Testimonials/soumya.jpeg";
 import coldStorage from "./assets/coldStorage.png";
 
 
@@ -86,34 +86,36 @@ export const planning = [
 
 
 export const clients = [
-  {
+   {
     image: client1,
-    name: "Akash Mishra",
-    about:
-      "A dedicated Project Manager renowned for expertly coordinating all phases of construction projects—from planning and budgeting to execution—ensuring timely delivery, cost efficiency, and uncompromising quality standards.",
-    post: "Project Manager",
-  },
-  {
-    image: client2,
-    name: "Shiva Singh",
-    about:
-      "An accomplished Site Manager with strong on-site leadership, overseeing daily operations, resource allocation, safety compliance, and workforce coordination to deliver high-quality construction projects safely and on schedule.",
-    post: "Site Manager",
-  },
-  {
-    image: client3,
     name: "Ramchandra Singh",
     about:
       "A visionary Managing Director providing strategic leadership and operational oversight across the organization, driving project excellence, business growth, profitability, and successful execution of complex construction developments.",
     post: "Managing Director",
   },
 
-  {
-    image: client4,
+   {
+    image: client2,
     name: "Soumya Ranjan Nanda",
     about:
       "A strategic Director of Growth & Strategy who spearheads business expansion, identifies new market opportunities, develops long-term growth plans, and aligns innovative initiatives to enhance revenue and competitive positioning in the construction and real estate sector.",
     post: "Director: Growth & Strategy",
-  }
+  },
+
+  {
+    image: client3,
+    name: "Akash Mishra",
+    about:
+      "A dedicated Project Manager renowned for expertly coordinating all phases of construction projects—from planning and budgeting to execution—ensuring timely delivery, cost efficiency, and uncompromising quality standards.",
+    post: "Project Manager",
+  },
+  {
+    image: client4,
+    name: "Shiva Singh",
+    about:
+      "An accomplished Site Manager with strong on-site leadership, overseeing daily operations, resource allocation, safety compliance, and workforce coordination to deliver high-quality construction projects safely and on schedule.",
+    post: "Site Manager",
+  },
+
 ];
 

@@ -58,7 +58,7 @@ const Footer = () => {
                             href="mailto:avyaktaecons@infa.com"
                             className="hover:text-yellow-300 transition"
                         >
-                            avyaktaecons@infa.com
+                            avyaktaconstructioninfra@gmail.com
                         </a>
                     </p>
 
@@ -68,7 +68,7 @@ const Footer = () => {
                             href="tel:9793241834"
                             className="hover:text-yellow-300 transition"
                         >
-                            +91 9793241834
+                            +91 7735818294
                         </a>
                     </p>
                 </div>
