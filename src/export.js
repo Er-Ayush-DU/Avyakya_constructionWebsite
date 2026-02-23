@@ -10,10 +10,10 @@ import { MdOutlineDesignServices } from "react-icons/md";
 import { FaRegBuilding } from "react-icons/fa";
 import { FaSitemap } from "react-icons/fa";
 
-import client1 from "./assets/testimonials/akash-mishra.jpeg";
-import client2 from "./assets/testimonials/shiva-singh.jpeg";
-import client3 from "./assets/testimonials/ramchandra-singh.jpeg";
-import client4 from "./assets/testimonials/soumya.jpeg";
+import client1 from "./assets/Testimonials/akash-mishra.jpeg";
+import client2 from "./assets/Testimonials/shiva-singh.jpeg";
+import client3 from "./assets/Testimonials/ramchandra-singh.jpeg";
+import client4 from "./assets/Testimonials/soumya.jpeg";
 import coldStorage from "./assets/coldStorage.png";
 
 
