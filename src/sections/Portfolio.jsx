@@ -1,12 +1,12 @@
 import React from 'react';
-import project1 from '../assets/project1.jpg'
-import project2 from '../assets/project2.jpg'
-import project3 from '../assets/project3.jpg'
-import project4 from '../assets/project4.jpg'
-import project5 from '../assets/project5.jpg'
-import project6 from '../assets/project6.jpg'
-import project7 from '../assets/project7.jpg'
-import project8 from '../assets/project8.jpg'
+import project1 from '../assets/projects/project1.jpg'
+import project2 from '../assets/projects/project2.jpg'
+import project3 from '../assets/projects/project3.jpg'
+import project4 from '../assets/projects/project4.jpg'
+import project5 from '../assets/projects/project5.jpg'
+import project6 from '../assets/projects/project6.jpg'
+import project7 from '../assets/projects/project7.jpg'
+import project8 from '../assets/projects/project8.jpg'
 
 import {motion} from 'framer-motion'
 import { slideUpVariants , zoomInVariants } from './animation';
@@ -23,7 +23,7 @@ const Portfolio = () => {
             >
                 <motion.h3
                 variants={slideUpVariants}
-                className='text-yellow-500 text-2xl uppercase'
+                className='text-yellow-300 text-2xl uppercase'
                 >
                     portfolio
                 </motion.h3>
@@ -33,14 +33,14 @@ const Portfolio = () => {
                 >Our Best Projects</motion.h2>
                 <motion.div
                 variants={zoomInVariants}
-                className='w-[120px] h-[6px] bg-yellow-500'
+                className='w-[120px] h-[6px] bg-yellow-300'
                 >
                 </motion.div>
                 <motion.div
                 initial='hidden'
                 whileInView='visible'
                 variants={zoomInVariants}
-                className='w-full m-auto grid lg:grid-cols-4 grid-cols-1'
+                className='w-full m-auto grid lg:grid-cols-4 grid-cols-1 cursor-pointer'
                 >
                     <img src={project1} alt="" className='h-[250px] w-full'/>
                     <img src={project2} alt="" className='h-[250px] w-full'/>

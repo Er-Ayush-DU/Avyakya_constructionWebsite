@@ -11,10 +11,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                "service_r9wn55b",
-                "template_gklrhgb",
+                "service_8nr4hec",
+                "template_36avesp",
                 formRef.current,
-                "M3Bzt491x5fB2kSLX"
+                "6Is54XuVsZVUbHSOc"
             )
             .then(
                 () => {
@@ -40,7 +40,7 @@ const Contact = () => {
                 >
                     <motion.h1
                         variants={slideUpVariants}
-                        className="uppercase text-yellow-500 text-xl tracking-widest"
+                        className="uppercase text-yellow-300 text-xl tracking-widest"
                     >
                         Contact Us
                     </motion.h1>
@@ -52,7 +52,7 @@ const Contact = () => {
                         Reach Us For Any Query
                     </motion.h1>
 
-                    <div className="w-[140px] h-[5px] bg-yellow-500"></div>
+                    <div className="w-[140px] h-[5px] bg-yellow-300"></div>
 
                     <p className="text-2xl italic text-gray-600 mt-[50px]">
                         We are the leader with 25 years of experience in the construction market!
@@ -109,7 +109,7 @@ const Contact = () => {
                         <motion.button
                             variants={zoomInVariants}
                             type="submit"
-                            className="bg-yellow-500 hover:bg-black text-black hover:text-white font-bold py-4 rounded-lg transition"
+                            className="bg-yellow-300 hover:bg-black text-black hover:text-white font-bold py-4 rounded-lg transition"
                         >
                             SUBMIT
                         </motion.button>

@@ -14,7 +14,7 @@ const Footer = () => {
                 {/* Company Info */}
                 <div>
                     <h2 className="text-xl font-bold text-white mb-3">
-                        Avyakta <span className="text-yellow-500">Construction & Infra Pvt. Ltd.</span>
+                        Avyakta <span className="text-yellow-300">Construction & Infra Pvt. Ltd.</span>
                     </h2>
                     <p className="text-sm leading-relaxed">
                         Avyakta Construction & Infra Pvt. Ltd. delivers reliable,
@@ -30,7 +30,7 @@ const Footer = () => {
                     </h3>
 
                     <p className="text-sm mb-3 flex items-start gap-2">
-                        <FaMapMarkerAlt className="text-yellow-500 mt-1" />
+                        <FaMapMarkerAlt className="text-yellow-300 mt-1" />
                         <span>
                             <strong>Kanpur Office:</strong><br />
                             Barrabaipass, Kanpur – 208001
@@ -38,7 +38,7 @@ const Footer = () => {
                     </p>
 
                     <p className="text-sm flex items-start gap-2">
-                        <FaMapMarkerAlt className="text-yellow-500 mt-1" />
+                        <FaMapMarkerAlt className="text-yellow-300 mt-1" />
                         <span>
                             <strong>Kannauj Office:</strong><br />
                             H67/2, Rampur Aligarh–Kanpur Highway, Kannauj
@@ -53,20 +53,20 @@ const Footer = () => {
                     </h3>
 
                     <p className="text-sm mb-2 flex items-center gap-2">
-                        <FaEnvelope className="text-yellow-500" />
+                        <FaEnvelope className="text-yellow-300" />
                         <a
                             href="mailto:avyaktaecons@infa.com"
-                            className="hover:text-yellow-500 transition"
+                            className="hover:text-yellow-300 transition"
                         >
                             avyaktaecons@infa.com
                         </a>
                     </p>
 
                     <p className="text-sm flex items-center gap-2">
-                        <FaPhoneAlt className="text-yellow-500" />
+                        <FaPhoneAlt className="text-yellow-300" />
                         <a
                             href="tel:9793241834"
-                            className="hover:text-yellow-500 transition"
+                            className="hover:text-yellow-300 transition"
                         >
                             +91 9793241834
                         </a>
@@ -82,7 +82,7 @@ const Footer = () => {
             {/* Scroll To Top */}
             <button
                 onClick={scrollToTop}
-                className="fixed bottom-8 right-8 bg-yellow-500 text-black p-3 rounded-full shadow-lg hover:bg-black hover:text-white transition duration-300"
+                className="fixed bottom-8 right-8 bg-yellow-300 text-black p-3 rounded-full shadow-lg hover:bg-black hover:text-white transition duration-300"
                 aria-label="Scroll to top"
             >
                 <FaArrowUp size={18} />

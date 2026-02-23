@@ -1,61 +1,77 @@
 import React from 'react';
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 import { slideUpVariants, zoomInVariants } from './animation';
 import { clients } from '../export';
 
-const Testmonials = () => {
-    return (
-        <div id='testimonials' className='w-full'>
+const Testimonials = () => {
+  return (
+    <div id="testimonials" className="w-full bg-gray-900 py-16">
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        variants={slideUpVariants}
+        className="lg:w-[85%] w-[92%] mx-auto flex flex-col items-center gap-8"
+      >
+        <motion.h3
+          variants={slideUpVariants}
+          className="text-yellow-300 text-2xl md:text-3xl uppercase tracking-wide"
+        >
+          Testimonials
+        </motion.h3>
+
+        <motion.h2
+          variants={slideUpVariants}
+          className="text-white text-4xl md:text-5xl font-bold text-center uppercase"
+        >
+          WHAT THEY SAY ABOUT US
+        </motion.h2>
+
+        <motion.div
+          variants={zoomInVariants}
+          className="w-28 md:w-32 h-1 bg-yellow-300 rounded-full my-2"
+        />
+
+        <div className="w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 md:gap-10 mt-10">
+          {clients.map((client, index) => (
             <motion.div
-                initial="hidden"
-                whileInView="visible"
-                variants={slideUpVariants}
-                className='lg:w-[80%] w-[90%] m-auto py-[60px] flex flex-col justify-between items-center gap-[20px]'
-
+              key={index}
+              initial="hidden"
+              whileInView="visible"
+              variants={zoomInVariants}
+              className="relative flex flex-col items-center"
             >
-                <motion.h3
-                    variants={slideUpVariants}
-                    className='text-yellow-500 text-2xl uppercase'
-                >Testimonials
-                </motion.h3>
-                <motion.h2
-                    variants={slideUpVariants}
-                    className='uppercase text-white text-5xl font-bold text-center'
-                >WHAT THEY SAY ABOUT US</motion.h2>
-                <motion.div
-                    variants={zoomInVariants}
-                    className='w-[120px] h-[6px] bg-yellow-500'
-                >
-                </motion.div>
+              {/* Circular avatar - positioned on top with enough space */}
+              <div className="relative z-10 mb-[-50px] md:mb-[-60px]">
+                <div className="w-32 h-32 md:w-36 md:h-36 rounded-full overflow-hidden border-4 border-yellow-300 shadow-xl shadow-yellow-300/30">
+                  <img
+                    src={client.image}
+                    alt={client.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
 
-                <motion.div
-                    initial='hidden'
-                    whileInView='visible'
-                    variants={zoomInVariants}
-                    className='lg:w-full w-[90%] grid lg:grid-cols-3 grid-cols-1 justify-center
-                gap-8 items-start mt-[30px]'
-                >
-                    {
-                        clients.map((client, index) => (
-                            <div key={index} className='flex flex-col justify-center items-center'>
-                                <div className='border-2 border-white hover:bg-yellow-500 pb-[100px] p-[30px]'>
-                                    <p className='text-white text-lg text-center italic'>{client.about}</p>
-                                </div>
-                                <div className='flex flex-col justify-center items-center gap-[5px]'>
-                                    <img src={client.image} alt={client.name} className='mt-[-50px]' />
-                                    <h3 className='uppercase text-2xl font-bold text-white'>{client.name}</h3>
-                                    <h4 className='text-xl text-yellow-500'>{client.post}</h4>
+              {/* Card with increased top padding to accommodate the overlapping image */}
+              <div className="bg-gray-800 border-2 border-gray-700 hover:border-yellow-300 transition-all duration-300 rounded-xl pt-20 pb-10 px-6 md:px-8 text-center w-full min-h-[260px] flex flex-col justify-between shadow-lg">
+                <p className="text-gray-200 text-base md:text-lg italic leading-relaxed">
+                  {client.about}
+                </p>
 
-                                </div>
-                            </div>
-                        ))
-                    }
-
-                </motion.div>
-
+                <div className="mt-6">
+                  <h3 className="text-white text-xl md:text-2xl font-bold uppercase tracking-wide">
+                    {client.name}
+                  </h3>
+                  <h4 className="text-yellow-300 text-base md:text-lg mt-1 font-medium">
+                    {client.post}
+                  </h4>
+                </div>
+              </div>
             </motion.div>
+          ))}
         </div>
-    );
+      </motion.div>
+    </div>
+  );
 };
 
-export default Testmonials;
+export default Testimonials;
